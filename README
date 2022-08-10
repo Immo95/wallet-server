@@ -1,0 +1,7 @@
+SignOnly - A shell using WalletConnect to be connected to a custodian
+
+For installation use npm install
+
+The app is including for presentation purposes the private key of an empty wallet so no further initialization required.
+It is compiled and started with the command "npm start". As a first step you need to enter the URI shown when accessing a DApp and choosing to login using WalletConnect.
+Afterwards you will receive from the DApp requests for opening a session and for certain actions a signature request. Each of these you can approve by typing a Y in the command line and hitting enter.
